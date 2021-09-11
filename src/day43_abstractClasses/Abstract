@@ -1,0 +1,59 @@
+
+
+ABSTRACT CLASSES
+
+1. Parent class'daki body'siz methodlara abastract methodlar denir.
+
+Bazý child parent iliskisindeki classlarda child class parent class'ýn
+
+bazý methodlarýný kullanmak zorunda ise o methodlar abstract hale getirilir.
+
+ABSTRACT CLASS'LARDA OBJ ASLA CREAT EDÝLEMEZ....
+
+2. Bir method'u abstract yapmak için---> {body} silinir ve return type'dan önce 
+sonra "abstract" keyword kullanýlýr. 
+
+3. Abstract bir method ancak abstract bir class'da creat edilir.
+concrete class'da asla abstract method creat edilmez.
+
+4.abstract bir class'da hem abstract hem de concrate class'lar olabilir.
+
+5. Concrate class abstract class'a extend edildiginde abstract class
+taki tüm abstract methodlarý implement(uyarlamak) zorundadýr...!!! 
+Ama concrate methodlarý implemet etmeyebilir.
+
+6. Bir abstract class baþka bir abstract class'a extends edildiðinde herhangi bir 
+method'u override etmek zorunda degildir.Çünkü javaya göre abstract child
+class'nýn altýnda mutlaka concrate bir child class vardýr.
+
+7. iki class abstract ve aralarýnda parent-child iliskisi varsa o metodu override
+etmek zorunda degildir.
+
+8. Final,private ve static methodlar  abstract olamaz. Private methodlar da kapsullendiði
+için koruma altýnda oldugu için abstract olamaz. Static method override olmaz ve abstract ta olamaz.
+
+9. Abstract Class'ta concrate variable olabilir ama bu variable asla abstract olamaz.
+
+
+ABSTRACT classes
+1) parent class'daki body'siz methodlara abstrac methodlar denir.
+bazi child parent iliskisindeki classlarda child class parent
+ class'in  bazi methodlarini kullanmak zorunda ise o methodlar abstrack hale getirilir
+ ABSTRACT CLASS'LARDA OBJ ASLA CREAT EDÝLEMEZ....
+ 
+2) bir method' abstrack yapmak icin--> {body} silinir ve  return type den once  
+ "abstract" keyword kullanilir.
+ 
+3)Abstract bir method ancak abstract bir class'da creat edilir.
+  concrete class'da asla abstract method creat edilmez
+  
+4)abstract bir class'da hem abstract hem de concrete method olabilir.
+5)Concrete class abstract class'a extend edildiginde abstract class'taki tum abstract methodlari
+implement(uyarlama) zo-run-da-dir...!!! ama cocrete methodlari implement etmeyebilir
+6)Bir Abstract Class baska bir abstract class'a extend edildiginde
+  herhangi bir methodu owerride etmek zorunda degil. Cunku javaya gore abstract child class'inda 
+  altinda mutlaka concrete ir child class vardir.
+  
+7)Final, private ve static methodlar abstract o-la- mazzz!!!
+8)Abstract Class'ta cocrete veriable olabilir. ama bu veriable asla kesinlikle abstract o-la-maz!!!
+  
